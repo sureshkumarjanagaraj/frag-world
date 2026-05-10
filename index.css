@@ -1,0 +1,116 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2 {
+   font-family:   Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    color: #d4af37
+}
+
+ h2,li,ul {
+    display: inline;
+}
+
+ul {
+    margin-left: 60%;
+}
+
+li {
+    color: gray;
+    cursor: pointer;
+}
+li:hover {      
+    color: white;
+}
+
+input {
+    width: 60%;
+    padding: 15px;
+}
+
+.SearchBar {
+    text-align: center;
+    padding: 50px;
+   border-radius: 8px;
+
+    
+}
+.search:hover{
+    background-color: #d4af37;
+    color: black;
+}
+.search{
+    height: 45px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.one {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+    margin-left: 30px;
+    cursor: pointer;
+     border-radius: 10px;
+
+}
+
+
+.one:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+     box-shadow: 0px 0px 15px gray;
+
+
+}
+.products {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    margin-top: 20px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    font-family:Arial,sans-serif;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: gray;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.pp {
+    font-size: small;
+    margin-top: 5px ;
+    font-family:Arial, sans-serif
+}
+
+.pa {
+    margin-top: 5px;
+    font-size: small;
+}
+
+
+
+
